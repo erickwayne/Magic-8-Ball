@@ -10,7 +10,7 @@ public class Magic8Ball {
     }
 
     //Generates random number for 8 ball
-    //Gives a statement 13 statements
+    //Gives an answer out of 13 statements in array.
     //Prints statement
     public void shake(){
         int random = (int) (Math.random()*14);
